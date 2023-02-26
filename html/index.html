@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/client.css">
+    <title>Chat Web</title>
+</head>
+<body>
+    <main class="profilePageMain">
+        <div class="ProfilepageBody">
+            <div class="ProfileImage">
+                <div class="ProfileImageInner">
+                    <img src="../images/chaticon.png" id="ProfileImage" alt="profile image not avialable">
+                    <div style="margin-left: 1vw;" ><h1 style="margin-left: 1vw;">Welcome to SMADiscuss Chat App</h1></div>
+                </div>
+                <!-- <div class="ProfileImageInner2">
+                    <button type="button" id="ProfileImageButton">Change</button>
+                </div> -->
+            </div>
+            <div class="ProfilepageInfo">  
+                <!-- Personal Info -->
+            </div>
+            <form action="#" id="send-message-form">
+                <div class="send-message-div">
+                    <input type="text" id="send-message-input" placeholder="Message...">
+                    <button type="submit" class="ProfileImageButton" id="send-message-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+    <script src="../js/client.js"></script>
+</body>
+</html>
